@@ -1,0 +1,20 @@
+.on-sale {
+    color: green;
+}
+
+.in-stock {
+    color: red;
+}
+
+.agotado {
+    color: red;
+}
+
+.product-detail-image {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* quiero que las imagenes queden en medio del texto */
