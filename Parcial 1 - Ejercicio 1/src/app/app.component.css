@@ -1,0 +1,7 @@
+.main {
+    margin: 0;
+    padding: 0;
+    
+    /* Quiero que ocupe toda la pantalla */
+    height: 100vh;
+}

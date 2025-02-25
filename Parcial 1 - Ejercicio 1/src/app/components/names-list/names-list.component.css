@@ -1,0 +1,9 @@
+ul {
+    /* cambar el diseño de la lista, cambiar los puntos por otra figura */
+    list-style-type: symbols(1);
+    /* centrar el texto */
+
+    text-align: center;
+    /* cambiar el color de fondo */
+    background-color: #ff0080;
+}

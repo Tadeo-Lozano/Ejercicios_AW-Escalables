@@ -1,0 +1,18 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  /* quiero que ocupe el 20% del alto */
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

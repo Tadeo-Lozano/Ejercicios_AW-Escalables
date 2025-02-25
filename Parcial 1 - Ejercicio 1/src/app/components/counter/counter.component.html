@@ -1,0 +1,16 @@
+<div class="counter">
+    <p>Bienvenido {{username}} </p>
+    <p>Contador: {{ counter }}</p>
+
+    <button [disabled]="counter >= 15" (click)="incrementBy()">+1</button>
+    <button [disabled]="counter <= 0" (click)="incrementBy(-1)">-1</button>
+    <p *ngIf="counter < 10; else elseBlock">El valor del contador es menor que 10</p>
+
+    <app-counter ></app-counter>
+    
+</div>
+<ng-template #elseBlock>
+    <p>El valor del contador es mayor o igual que 10</p>
+</ng-template>
+
+
